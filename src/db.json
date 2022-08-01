@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "First Blog",
+      "body": "The Web is the common name for the World Wide Web, a subset of the Internet consisting of the pages that can be accessed by a Web browser. Many people assume that the Web is the same as the Internet, and use these terms interchangeably. However, the term Internet actually refers to the global network of servers that makes the information sharing that happens over the Web possible. So, although the Web does make up a large portion of the Internet, but they are not one and same.",
+      "author": "vartoli",
+      "id": 1
+    },
+    {
+      "title": "Second Blog",
+      "body": "React.js was released by a software engineer working for Facebook Jordane Walke in 2011. React is a JavaScript library focused on creating declarative user interfaces (UIs) using a component-based concept. Its used for handling the view layer and can be used for web and mobile apps. React’s main goal is to be extensive, fast,  declarative, flexible, and simple.           React is not a framework, it is specifically a library.  The explanation for this is that React only deals with rendering UIs and reserves many things at the discretion of individual projects. The standard set of tools for creating an application using ReactJS is frequently called the stack.",
+      "author": "shah",
+      "id": 2
+    },
+    {
+      "title": "Third Blog",
+      "body": "React Native uses JavaScript to build the UI of an application but also uses OS-native representations. It allows code to be implemented in OS-native languages (Swift and Objective-C for iOS and Java and Kotlin for Android) for more sophisticated functions.",
+      "author": "al hera",
+      "id": 3
+    },
+    {
+      "title": "Fourth Blog",
+      "body": "ReactJS is a component-based library where components make our code reusable and split our UI into different pieces. Components are divided into two types: Class components and Function components. All React components follow the separation of concerns design principle, meaning that we should separate our application into different sections to address separate concerns.",
+      "author": "vartoli",
+      "id": 4
+    },
+    {
+      "title": "check",
+      "body": "check body",
+      "author": "shah",
+      "id": 5
+    }
+  ]
+}
