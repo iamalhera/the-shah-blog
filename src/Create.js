@@ -14,7 +14,7 @@ const Create = () => {
         
         setIsLoading(true);
 
-        fetch('http://localhost:8000/blogs', {
+        fetch('https://my-json-server.typicode.com/iamalhera/blog-json-server/blogs', {
             method : 'POST',
             headers: {"Content-Type" : "application/json"},
             body: JSON.stringify(blog)

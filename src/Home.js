@@ -9,7 +9,7 @@ const Home = () => {
     //     { title: 'Fourth Blog', body: '4th blog body', author: 'Al Saba Ahmad', id: 4 }
     // ];
     
-    const {data : blogs, isLoading, error} = useFetch('http://localhost:8000/blogs');
+    const {data : blogs, isLoading, error} = useFetch('https://my-json-server.typicode.com/iamalhera/blog-json-server/blogs');
 
     return (
         <div className="home">

@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
     const { id } = useParams();
-    const { data: blog, error, isLoading } = useFetch('http://localhost:8000/blogs/' + id);
+    const { data: blog, error, isLoading } = useFetch('https://my-json-server.typicode.com/iamalhera/blog-json-server/blogs/' + id);
     const navigate = useNavigate();
 
     const deleteBtnHandler = () => {
-        fetch('http://localhost:8000/blogs/' + blog.id, {
+        fetch('https://my-json-server.typicode.com/iamalhera/blog-json-server/blogs/' + blog.id, {
             method: 'DELETE',
         }).then(() => {
             navigate("/");
